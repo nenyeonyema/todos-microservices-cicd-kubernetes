@@ -1,6 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const path = require('path');
+
 require('dotenv').config();
 
 const todoRoutes = require('./routes/todos');
@@ -19,3 +21,4 @@ mongoose.connect(process.env.MONGO_URI)
     });
   })
   .catch(err => console.error(err));
+

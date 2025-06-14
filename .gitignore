@@ -1,3 +1,17 @@
 .env
 **/.env
 frontend/README.md
+# Node.js
+backend/node_modules/
+.env
+
+# React build output
+frontend/build/
+frontend/dist/
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
